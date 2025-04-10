@@ -14,6 +14,7 @@ Please consider:
 
 ```{sql}
 CREATE TABLE Snow_survey (
+    PRIMARY KEY (Site, Date, Plot),
     Site TEXT NOT NULL, CHECK (LENGTH(Site) = 4),
         FOREIGN KEY (Site) REFERENCES Sites(Code),
     Year INTEGER NOT NULL,
@@ -47,7 +48,7 @@ CREATE TABLE Snow_survey (
 ### Reflection
 
 1. Site
-- A foreign key to the sites table. THe code is checked to have a length of 4. Null values are not allowed.
+- A foreign key to the sites table. The code is checked to have a length of 4. Null values are not allowed.
 2. Year
 - An interger in which null values are not allowed. The year is important to know when the survey was conducted.
 3. Date
