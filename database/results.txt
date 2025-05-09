@@ -1,0 +1,1 @@
+I used 1000 repetitions to get good timings and averaged them out. From my script, I found the quickest method is subquery method, by miliseconds.

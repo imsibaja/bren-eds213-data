@@ -1,0 +1,4 @@
+with_index_a,0.034
+subquery,0.035
+outer_join,0.039
+except,0.04
