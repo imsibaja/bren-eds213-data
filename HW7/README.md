@@ -69,6 +69,11 @@ Notes	Any relevant comments on the survey
 
 Missing data codes: ```NA```
 
+Snow, Water, and Land cover are all expressed as percentages of the total area surveyed. The total cover should always sum to 100%.
+If one of the three cover types is missing, the other two should sum to 100%. 
+If two of the three cover types are missing, the third should be 100%. 
+If all three are missing, the total cover will be NA.
+
 ---------------------------------------------------------------------------------
 ## SHARING / ACCESS INFORMATION
 ---------------------------------------------------------------------------------
